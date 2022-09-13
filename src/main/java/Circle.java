@@ -3,8 +3,8 @@ import java.awt.*;
 public class Circle extends Shape {
 
     @Override
-    void equals() {
-        super.equals();
+    public boolean equals(Object o) {
+        return super.equals(o);
     }
 
     void get(int a, int b, int c, int d){
